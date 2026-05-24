@@ -5,7 +5,7 @@ FROM tomcat:10.1
 RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Copy the manually exported WAR
-COPY yourproject.war /usr/local/tomcat/webapps/ROOT.war
+COPY Leave-Management-full.war /usr/local/tomcat/webapps/ROOT.war
 # Expose port 8080
 EXPOSE 8080
 
